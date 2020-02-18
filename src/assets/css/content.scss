@@ -1,0 +1,64 @@
+.content-body {
+  padding: 1rem;
+  margin: 0;
+}
+.content {
+  margin: 0 3rem;
+  border: 1px solid #dde6e9;
+  background-color: white;
+  border-top: none;
+  .content-header {
+    border-top: 2px solid #dde6e9;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  
+  .tag {
+    color: $orange;
+    font-weight: 600;
+    font-size: 1.2rem;
+    &::before {
+      position: relative;
+      left: 0px;
+      top: 0;
+      content: "";
+      border-left: 2px solid $orange;
+      margin-right: 0.5rem;
+    }
+  }
+  .percentage {
+    color: $orange;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .performance {
+    color: $orange;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .progress-bar {
+    background-color: $orange;
+  }
+}
+
+.wrapper {
+  background-color: #fafbfc;
+  color: $darkGray2;
+  max-width: 100%;
+  padding: 12px 2rem;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: rgb(207, 219, 226) 1px solid;
+  small {
+    display: inline;
+    color: #929292;
+    font-weight: normal;
+    &::before {
+      margin-left: 5px;
+      margin-right: 7px;
+      content: "/";
+      font-size: 22px;
+      position: relative;
+    }
+  }
+}

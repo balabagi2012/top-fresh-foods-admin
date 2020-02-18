@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "normal": {
+      "hosting": {
+        "admin": [
+          "admin-topfreshfoods"
+        ]
+      }
+    },
+    "topfreshfoods-52bd9": {
+      "hosting": {
+        "admin": [
+          "admin-topfreshfoods"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "normal": "topfreshfoods-52bd9"
+  }
+}
